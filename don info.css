@@ -1,0 +1,189 @@
+html{scroll-behavior: smooth;
+
+    }
+body{
+    background-color: white;
+}
+    .flexbox{display:flex;
+    padding-bottom:2em;
+    column-gap: 2ex;
+    row-gap:2ex;
+    margin-left:110px;
+    }
+    
+    .flexbox>* {
+        flex:2;
+        padding-top: 2em;
+        
+    }
+    .flexchild{display: flex;
+    }
+    .flexchild>*{gap: 2em;}
+    .donaldtruck{display:flex;
+        row-gap: 2em;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+    .donaldtruck>*{flex: 1;flex-wrap: wrap;
+    }
+    header{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width:80%;
+margin-left:120px;}
+    .don01{color:white;
+    border-radius: 5px;
+    background-color:rgb(158,234,231);
+    font-size:2ex;
+    padding:3px;}
+    .don02{color:rgb(158,234,231);
+    font-size: 1.8ex;}
+    .infos{ border-radius: 0px;
+    border-color: rgb(158,234,231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(158,234,231);
+    color: rgb(49,142,143);
+    font-size: medium;
+    padding: 0.2ex;
+    } 
+    .skill{font-size:small;
+    display: flex;
+    flex-shrink:2;
+    word-break:break-all;}
+    .donald{border-radius: 0px;
+    border-color: rgb(158,234,231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(158,234,231);
+    color: rgb(49,142,143);
+    padding:3px ;
+    font-size: large;
+    }
+
+    .list{ display: none;
+        border: 2px solid rgb(153,109,59);
+        background-color:rgb(250,234,204);
+        padding-left: 2ex;
+        padding-right: 2ex;
+        word-break: break-all;
+    }
+    .liste{
+        display:none;
+    }
+    .button{
+        margin-bottom: 2ex;
+        border: 2px solid rgb(153,109,59);
+        font-size: 200%;
+        background-color:rgb(250,234,204);
+        margin-top: 2ex;
+        color:rgb(153,109,59);
+    }
+    .button :hover{
+        color: coral;
+        cursor:pointer;
+    }
+    .list :hover{
+        color:coral;
+
+    }
+    
+    .g:hover{
+        color:coral;
+    }
+    .don23{border: 2px solid;
+    border-color: rgb(158,234,231);    
+    order:1;
+    background-color: white;
+    flex-shrink: 1;
+    padding-bottom: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+    }
+    .don20{
+    border: 2px solid;
+    border-color:rgb(158,234,231);
+    background-color:white ;
+    order:2;
+    flex-grow: 1;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    }
+    .don20 img {max-width:100%;
+    margin-top: 5px;}
+    
+    
+    .menu{padding: 0.25cm;
+        border-color: rgb(158,234,231);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(158,234,231);
+        color: rgb(49,142,143);
+        font-size: large;
+    max-width: 100%;
+margin-left: 110px;}
+    footer{text-align: center;
+    border: 2px solid;
+    border-color: rgb(158,234,231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-color: rgb(51,51,51);
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    background-color: white;
+    }
+    
+    .don36{
+    padding: 0.2cm;
+    border-color: rgb(158,234,231);
+    background-color: rgb(158,234,231);
+    color: rgb(49,142,143);
+    font-size: large;
+    flex-shrink: 1;}
+    .don25{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+    border-color: rgb(158,234,231);
+    background-color: white;
+    order:3;
+    text-align: center ;
+    word-wrap: break-word;
+    }
+.main-menu ul{
+    list-style-type: none;
+}
+.main-menu{
+        position:fixed;
+        top:0;
+        left:0;
+        width:110px;
+        height:100vh;
+        background-color: rgb(158,234,231);
+        overflow:hidden;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        white-space:nowrap;
+        box-shadow: 0px 0px 20px #8f8d8d;
+        transition:0.3s ease;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+.main-menu:hover{
+width:280px;
+}
+.main-menu .menu-item{
+    padding:10px;
+width:270px;
+letter-spacing: 1ex;
+
+}
+.main-menu .menu-item :hover{
+    background-color:rgb(252,248,227);
+    cursor:pointer;
+    text-underline-offset: none;
+}
+.menu-item a {
+    text-decoration: none;
+}
+.main-menu .menu-item .fa{
+    font-size:35px;
+    color:rgb(49,142,143);
+}
+footer{
+    margin-left:110px;
+}
